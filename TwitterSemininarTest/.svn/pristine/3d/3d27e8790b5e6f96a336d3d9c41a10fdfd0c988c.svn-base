@@ -1,0 +1,340 @@
+<meta name="layout" content="main">
+<script>
+    $(document).ready(function () {
+        $(".reply-command").click(function () {
+            var id = $(this).attr("id")
+            if($(".comment-section"+id).is(":visible"))
+                $(".comment-section"+id).hide()
+            else{
+                $(".comment-section"+id).show()
+            }
+        });
+
+        $('.comment').keyup(function(e){
+            if(e.keyCode == 13)
+            {
+                var id = $(this).attr("id");
+                var tweetId = id.split('-')[1];
+                var comment = $(this).val();
+                $(this).val("")
+                $.ajax({
+                    url: "${createLink(controller: "home", action: "addComment")}",
+                    data: {
+                        id: tweetId,
+                        comment: comment
+                    },
+                    success: function(data){
+
+                        $(".comments-"+tweetId).text("")
+                        $(".comments-"+tweetId).append(data)
+
+                    },
+                    error: function(data){
+                        alert("error")
+                    }
+                });
+            }
+        });
+        $(".comment-form").submit(function(){
+
+        });
+    });
+</script>
+<br/>
+    <div id="page-outer">
+        <div id="page-container" class="AppContent wrapper wrapper-home">
+
+
+
+
+
+
+            <div class="dashboard dashboard-left">
+
+                <div class="DashboardProfileCard  module">
+
+                    <a class="DashboardProfileCard-bg u-bgUserColor u-block" href="https://twitter.com/S_V_J_P" tabindex="-1" aria-hidden="true">
+                    </a>
+
+                    <div class="DashboardProfileCard-content">
+
+
+                        <a class="DashboardProfileCard-avatarLink u-inlineBlock" href="https://twitter.com/S_V_J_P" title="Vuqar Suleymanov" tabindex="-1" aria-hidden="true">
+                            <img class="DashboardProfileCard-avatarImage js-action-profile-avatar" src="${resource(dir: "images", file: "default_avatar.png")}" alt="">
+                        </a>
+
+                        <div class="DashboardProfileCard-userFields">
+                            <div class="DashboardProfileCard-name u-textTruncate">
+                                <g:link controller="profile" action="index" id="${user?.id}" class="u-textInheritColor" >${user?.fullname}</g:link>
+                            </div>
+                            <span class="DashboardProfileCard-screenname u-inlineBlock u-dir" dir="ltr">
+                                <g:link controller="profile" class="DashboardProfileCard-screennameLink u-linkComplex u-linkClean" ><span class="u-linkComplex-target">${user?.username}</span></g:link>
+                            </span>
+                        </div>
+
+                        <div class="ProfileCardStats">
+                            <ul class="ProfileCardStats-statList Arrange Arrange--bottom Arrange--equal"><li class="ProfileCardStats-stat Arrange-sizeFit">
+                                <a class="ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav" title="2 Tweets" href="https://twitter.com/S_V_J_P" data-element-term="tweet_stats">
+                                    <span class="ProfileCardStats-statLabel u-block">Tweets</span>
+                                    <span class="ProfileCardStats-statValue" data-is-compact="false">2</span>
+                                </a>
+                            </li><li class="ProfileCardStats-stat Arrange-sizeFit">
+                                <a class="ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav" title="26 Following" href="https://twitter.com/S_V_J_P/following" data-element-term="following_stats">
+                                    <span class="ProfileCardStats-statLabel u-block">Following</span>
+                                    <span class="ProfileCardStats-statValue" data-is-compact="false">26</span>
+                                </a>
+                            </li><li class="ProfileCardStats-stat Arrange-sizeFit">
+                                <a class="ProfileCardStats-statLink u-textUserColor u-linkClean u-block js-nav" title="3 Followers" href="https://twitter.com/S_V_J_P/followers" data-element-term="follower_stats">
+                                    <span class="ProfileCardStats-statLabel u-block">Followers</span>
+                                    <span class="ProfileCardStats-statValue" data-is-compact="false">3</span>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+
+
+                        <div id="dashboard-profile-prompt"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div role="main" aria-labelledby="content-main-heading" class="content-main top-timeline-tweetbox Grid-cell
+                    u-lg-size2of3" id="timeline">
+
+                <div id="above-timeline-prompt"></div>
+
+
+                <div class="timeline-tweet-box">
+                    <div class="home-tweet-box tweet-box component tweet-user">
+                        <img class="top-timeline-tweet-box-user-image avatar size32" src="${resource(dir: "images", file: "default_avatar.png")}" alt="">
+                        <g:form useToken="true" controller="tweet" action="postTweet" class="t1-form tweet-form         condensed         is-minimalButtonLabels" method="post" >
+
+
+                            <img class="inline-reply-user-image avatar size32" src="${resource(dir: "images", file: "default_avatar.png")}" alt="">
+                            <span class="inline-reply-caret">
+                                <span class="caret-inner"></span>
+                            </span>
+
+                            <div class="tweet-content">
+
+                                <textarea rows="2" style="width: 100%" class="ProfileHeaderCardEditing-editableField rich-editor u-borderUserColorLight notie is-showPlaceholder" name="tweet"></textarea>
+                                <button class="follow-button btn small small-follow-btn pull-right">
+                                    <span class="Icon Icon--tweet Icon--large"></span>
+                                    <span class="text">Tweet</span>
+                                </button>
+
+                                <div class="tweet-box-overlay"></div>
+                            </div>
+                        </g:form>
+                    </div>
+                </div>
+
+                <div class="content-header visuallyhidden">
+                    <div class="header-inner">
+                        <h2 id="content-main-heading" class="js-timeline-title">Tweets</h2>
+                    </div>
+                </div>
+                <div class="stream-container conversations-enabled persistent-inline-actions light-inline-actions " data-max-position="653467431961137153" data-min-position="653369657924153344">
+
+                    <div class="stream-item js-new-items-bar-container">
+                    </div>
+
+                    <div class="stream home-stream">
+                        <ol class="stream-items js-navigable-stream" id="stream-items-id">
+                        <g:each in="${tweets}" var="tweet">
+                            <li class="js-stream-item stream-item stream-item expanding-stream-item
+" data-item-id="653465300898344960" id="stream-item-tweet-653465300898344960" data-item-type="tweet">
+                                <div class="tweet original-tweet js-original-tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable has-cards " data-tweet-id="653465300898344960" data-disclosure-type="" data-item-id="653465300898344960" data-permalink-path="/javacodegeeks/status/653465300898344960" data-screen-name="javacodegeeks" data-name="Java Code Geeks" data-user-id="150820027" data-has-cards="true" data-card2-type="summary" data-expanded-footer="&lt;div class=&quot;js-tweet-details-fixer tweet-details-fixer&quot;&gt &lt;div class=&quot;card2 js-media-container portrait&quot; data-card2-name=&quot;summary&quot;&gt; &lt;div class=&quot;js-macaw-cards-iframe-container&quot;
+                                " data-you-follow="true" data-follows-you="false" data-you-block="false">
+                                    <div class="context">
+                                     </div>
+                                     <div class="content">
+                                        <div class="stream-item-header">
+                                            <g:link controller="profile" id="${tweet?.user?.id}" class="account-group js-account-group js-action-profile js-user-profile-link js-nav"  data-user-id="150820027">
+                                                <img class="avatar js-action-profile-avatar" src="${resource(dir: "images", file: "default_avatar.png")}" alt="">
+                                                <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part="">${tweet?.user?.fullname}</strong>
+                                                <span>‏</span><span class="username js-action-profile-name" data-aria-label-part=""><s></s><b>${tweet?.user?.username}</b></span>
+
+                                            </g:link>
+
+                                            <small class="time">
+                                                <a href="#" class="tweet-timestamp js-permalink js-nav js-tooltip" title="12:00 AM - 12 Oct 2015"><span class="_timestamp js-short-timestamp js-relative-timestamp" data-time="1444633243" data-time-ms="1444633243000" data-long-form="true" aria-hidden="true"><g:formatDate date="${tweet?.dateCreated}" type="datetime" style="SHORT" /></span><span class="u-hiddenVisually" data-aria-label-part="last"><g:formatDate date="${tweet?.dateCreated}" type="datetime" style="LONG" /> </span></a>
+                                            </small>
+
+
+
+                                        </div>
+
+
+
+                                            <g:if test="${tweet?.shared}">
+                                         <table>
+                                             <tr>
+                                                 <td><img class="avatar js-action-profile-avatar" src="${resource(dir: "images", file: "default_avatar.png")}" alt=""></td>
+                                                 <td><strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part="">${tweet?.shared?.user?.fullname}</strong>
+                                                     <span>‏</span><span class="username js-action-profile-name" data-aria-label-part=""><s></s><b>${tweet?.shared?.user?.username}</b></span>
+                                                     <br/>
+                                                         ${tweet?.shared?.tweet}
+
+                                                 </td>
+                                             </tr>
+                                         </table>
+                                            </g:if>
+                                            <g:else>
+
+                                                    ${tweet?.tweet}
+
+                                            </g:else>
+
+
+
+
+
+
+                                        <div class="stream-item-footer">
+
+
+
+                                            <div class="ProfileTweet-actionList js-actions " role="group" aria-label="Tweet actions">
+
+                                                <div class="ProfileTweet-action ProfileTweet-action--reply">
+                                                    <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply reply-command" id="${tweet?.id}" data-modal="ProfileTweet-reply" type="button">
+                                                        <div class="IconContainer js-tooltip" title="Reply">
+                                                            <span class="Icon Icon--reply"></span>
+                                                            <span class="u-hiddenVisually">Reply</span>
+                                                        </div>
+                                                    </button>
+                                                </div>
+
+
+                                                <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+                                                    <g:link controller="tweet" action="retweet" id="${tweet?.id}" class="ProfileTweet-actionButton  js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+                                                        <div class="IconContainer js-tooltip" title="Retweet">
+                                                            <span class="Icon Icon--retweet"></span>
+                                                            <span class="u-hiddenVisually">Retweet</span>
+                                                        </div>
+
+                                                    </g:link><button class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet" data-modal="ProfileTweet-retweet" type="button">
+
+                                                </button>
+                                                </div>
+
+
+                                                <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState ">
+                                                    <g:link controller="home" action="makeFavorite" id="${tweet?.id}" class="ProfileTweet-actionButton js-actionButton js-actionFavorite">
+                                                        <div class="IconContainer js-tooltip" title="Favorite">
+                                                            <span <g:if test="${az.ivytech.Favorite.findByTweetsAndUser(tweet, user)}">style="color: yellow;"</g:if> class="Icon  Icon--favorite"></span>
+                                                            <span class="u-hiddenVisually">Favorite</span>
+                                                        </div>
+
+                                                </g:link>
+                                                </div>
+
+
+
+
+
+
+                                                <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                    </div>
+                                </div>
+
+                                <div style="display: none" class="inline-reply-tweetbox swift comment-section${tweet?.id}"><form class="t1-form tweet-form is-minimalButtonLabels condensed" method="post" target="tweet-post-iframe" action="//upload.twitter.com/i/tweet/create_with_media.iframe" enctype="multipart/form-data" id="swift_tweetbox_1444906091187"></form>
+
+                                    <input type="hidden" value="" name="use_tweet_ui_metrics">
+                                    <img class="inline-reply-user-image avatar size32" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png" alt="">
+                                    <span class="inline-reply-caret">
+                                        <span class="caret-inner"></span>
+                                    </span>
+
+                                    <div class="tweet-content">
+
+                                            <input type="text" name="comment" class="tweet-form comment " id="comment-${tweet?.id}" style="width: 90%">
+
+                                        <div class="tweet-box-overlay"></div>
+                                    </div>
+
+                                    <div class="toolbar">
+
+
+                                    </div>
+                                    <form class="t1-form tweet-form is-minimalButtonLabels condensed" method="post" target="tweet-post-iframe" action="//upload.twitter.com/i/tweet/create_with_media.iframe" enctype="multipart/form-data" ></form></div>
+
+                            </li>
+
+
+                            <!-- comment -->
+                            <div class="comments-${tweet?.id}">
+                    <g:each in="${tweet.comments.sort{a,b-> a.dateCreated <=> b.dateCreated}}" var="comment">
+
+                            <li  style="background-color: #E5F2F7; display: none" class="comment-section${tweet?.id} js-stream-item stream-item stream-item expanding-stream-item">
+                    <div class="tweet original-tweet js-original-tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable my-tweet">
+                            <div class="context">
+                                 </div>
+                                     <div class="content">
+                                        <div class="stream-item-header">
+                                            <a class="account-group js-account-group js-action-profile js-user-profile-link js-nav" href="/S_V_J_P" data-user-id="1861476799">
+                                                <img class="avatar js-action-profile-avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_bigger.png" alt="">
+                                                <strong class="fullname js-action-profile-name show-popup-with-id" data-aria-label-part="">${comment?.user?.fullname}</strong>
+                                                <span>‏</span><span class="username js-action-profile-name" data-aria-label-part=""><b>${comment?.user?.username}</b></span>
+
+                                            </a>
+
+                                            <small class="time">
+                                                <a href="#" class="tweet-timestamp js-permalink js-nav js-tooltip" title="3:48 AM - 15 Oct 2015"><span class="_timestamp js-short-timestamp js-relative-timestamp" data-time="1444906094" data-time-ms="1444906094000" data-long-form="true" aria-hidden="true"><g:formatDate date="${comment?.dateCreated}" type="datetime" style="SHORT" /></span><span class="u-hiddenVisually" data-aria-label-part="last"><g:formatDate date="${comment?.dateCreated}" style="SHORT" /></span></a>
+                                            </small>
+
+                                        </div>
+
+                                        <p class="TweetTextSize  js-tweet-text tweet-text" lang="und" data-aria-label-part="0"><a href="/S_V_J_P" class="twitter-atreply pretty-link js-nav" dir="ltr"></a> ${comment?.comment}</p>
+
+
+                                        <div class="stream-item-footer">
+
+
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+
+
+                            </li>
+                    </g:each>
+                            </div>
+                    </g:each>
+
+                        </ol>
+
+
+
+                        <ol class="hidden-replies-container"></ol>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>

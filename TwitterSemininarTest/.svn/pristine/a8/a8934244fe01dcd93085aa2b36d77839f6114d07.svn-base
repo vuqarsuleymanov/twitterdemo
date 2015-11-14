@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://twitter.com/ -->
+<html lang="en" data-scribe-reduced-action-queue="true"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+
+
+    <meta charset="utf-8">
+
+    <noscript>&lt;meta http-equiv="refresh" content="0; URL=https://mobile.twitter.com/i/nojs_router?path=%2F"&gt;</noscript>
+
+    <script async="" src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/analytics.js"></script><script id="LR19" type="text/javascript" async="" src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/timeline.060a29b1b829051b4bc6caa009cb02492542a737.js"></script><script id="LR8" type="text/javascript" async="" src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/boot.3cc8c81ab737c0bf6c8e43554c82e5837c3d5fc7.js"></script><script id="LR5" type="text/javascript" async="" src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/profile.1c7467f9ba4733549aec5595ea266a579e732c09.js"></script><script id="swift_action_queue" nonce="JhHFcot1j/Kjp0Sav4QigQ==">
+    (function(){function m(a){a||(a=window.event);if(!a)return!1;a.timestamp=(new Date).getTime();!a.target&&a.srcElement&&(a.target=a.srcElement);if(document.documentElement.getAttribute("data-scribe-reduced-action-queue")){var b=a.target;while(b&&b!=document
+.body){if(b.tagName=="A")return;b=b.parentNode}}r("all",s(a));if(!q(a)){r("direct",a);return!0}document.addEventListener||(a=s(a));a.preventDefault=a.stopPropagation=a.stopImmediatePropagation=function(){};if(i){f.push(a);r("captured",a)}else r("ignored",a
+);return!1}function n($){p();for(var a=0,b;b=f[a];a++){var d=$(b.target),e=d.closest("a")[0];if(b.type=="click"&&e){var g=$.data(e,"events"),i=g&&g.click,j=!e.hostname.match(c)||!e.href.match(/#$/);if(!i&&j){window.location=e.href;continue}}d.trigger($.event
+.fix(b))}window.swiftActionQueue.wasFlushed=!0}function o(){for(var a in j){if(a=="all")continue;var b=j[a];for(var c=0;c<b.length;c++)console.log("actionQueue",u(b[c]))}}function p(){clearTimeout(g);for(var a=0,b;b=e[a];a++)document["on"+b]=null}function q
+(a){if(!a.target)return!1;var b=a.target,e=(b.tagName||"").toLowerCase();if(a.metaKey)return!1;if(a.shiftKey&&e=="a")return!1;if(b.hostname&&!b.hostname.match(c))return!1;if(a.type.match(d)&&w(b))return!1;if(e=="label"){var f=b.getAttribute("for");if(f){var g=
+document.getElementById(f);if(g&&v(g))return!1}else for(var i=0,j;j=b.childNodes[i];i++)if(v(j))return!1}return!0}function r(a,b){b.bucket=a;j[a].push(b)}function s(a){var b={};for(var c in a)b[c]=a[c];return b}function t(a){while(a&&a!=document.body){if(a
+.tagName=="A")return a;a=a.parentNode}}function u(b){var c=[];b.bucket&&c.push("["+b.bucket+"]");c.push(b.type);var d=b.target,e=t(d),f="",g,i,j=b.timestamp&&b.timestamp-a;if(b.type==="click"&&e){g=e.className.trim().replace(/\s+/g,".");i=e.id.trim();f=/[^#]$/
+.test(e.href)?" ("+e.href+")":"";d='"'+e.innerText.replace(/\n+/g," ").trim()+'"'}else{g=d.className.trim().replace(/\s+/g,".");i=d.id.trim();d=d.tagName.toLowerCase();b.keyCode&&(d=String.fromCharCode(b.keyCode)+" : "+d)}c.push(d+f+(i&&"#"+i)+(!i&&g?"."+g
+:""));j&&c.push(j);return c.join(" ")}function v(a){var b=(a.tagName||"").toLowerCase();return b=="input"&&a.getAttribute("type")=="checkbox"}function w(a){var b=(a.tagName||"").toLowerCase();return b=="textarea"||b=="input"&&a.getAttribute("type")=="text"||
+a.getAttribute("contenteditable")=="true"}var a=(new Date).getTime(),b=1e4,c=/^([^\.]+\.)*twitter\.com$/,d=/^key/,e=["click","keydown","keypress","keyup"],f=[],g=null,i=!0,j={captured:[],ignored:[],direct:[],all:[]};for(var k=0,l;l=e[k];k++)document["on"+l
+]=m;g=setTimeout(function(){i=!1},b);window.swiftActionQueue={buckets:j,flush:n,logActions:o,wasFlushed:!1}})();
+  </script>
+  <script id="composition_state" nonce="JhHFcot1j/Kjp0Sav4QigQ==">
+    (function(){function a(a){a.target.setAttribute("data-in-composition","true")}function b(a){a.target.removeAttribute("data-in-composition")}if(document.addEventListener){document.addEventListener("compositionstart",a,!1);document.addEventListener("compositionend"
+,b,!1)}})();
+  </script>
+
+    <link rel="stylesheet" href="${resource(dir: "css", file: "twitter_core.bundle.css")}">
+<link rel="stylesheet" href="${resource(dir: "css", file: "twitter_logged_out.bundle.css")}">
+
+
+
+
+<title>Twitter</title>
+
+
+
+<meta name="msapplication-TileImage" content="//abs.twimg.com/favicons/win8-tile-144.png">
+<meta name="msapplication-TileColor" content="#00aced">
+
+
+<link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1444159236/img/t1/favicon.svg" color="#55acee">
+
+<link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<link rel="manifest" href="https://twitter.com/manifest.json">
+
+
+<meta name="swift-page-name" id="swift-page-name" content="home">
+
+<link rel="canonical" href="./Twitter_files/Twitter.html">
+
+
+
+
+
+
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://twitter.com/opensearch.xml"
+      title="Twitter">
+
+<link rel="stylesheet" href="${resource(dir: "css", file: "twitter_more_1.bundle.css")}" charset="utf-8"><link
+        rel="stylesheet" href="${resource(dir: "css", file: "twitter_more_2.bundle.css")}" charset="utf-8"><link
+        id="async-css-placeholder">
+<style id="user-style-S_V_J_P">
+
+
+
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: #0084B4;
+}
+
+.u-textUserColor,
+.u-textUserColorHover:hover,
+.u-textUserColorHover:focus {
+    color: #0084B4 !important;
+}
+
+.u-borderUserColor,
+.u-borderUserColorHover:hover,
+.u-borderUserColorHover:focus {
+    border-color: #0084B4 !important;
+}
+
+.u-bgUserColor,
+.u-bgUserColorHover:hover,
+.u-bgUserColorHover:focus {
+    background-color: #0084B4 !important;
+}
+
+.u-dropdownUserColor > li:hover,
+.u-dropdownUserColor > li:focus,
+.u-dropdownUserColor > li > button:hover,
+.u-dropdownUserColor > li > button:focus {
+    color: #fff !important;
+    background-color: #0084B4 !important;
+}
+
+.u-boxShadowInsetUserColorHover:hover,
+.u-boxShadowInsetUserColorHover:focus {
+    box-shadow: inset 0 0 0 5px #0084B4 !important;
+}
+
+.u-textUserColorLight {
+    color: #99CDE1 !important;
+}
+
+.u-borderUserColorLight,
+.u-borderUserColorLightFocus:focus,
+.u-borderUserColorLightHover:hover,
+.u-borderUserColorLightHover:focus {
+    border-color: #99CDE1 !important;
+}
+
+.u-bgUserColorLight {
+    background-color: #99CDE1 !important;
+}
+
+.u-boxShadowUserColorLighterFocus:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05), inset 0 1px 2px rgba(0, 132, 180, 0.25) !important;
+}
+
+.u-textUserColorLightest {
+    color: #E5F2F7 !important;
+}
+
+.u-borderUserColorLightest {
+    border-color: #E5F2F7 !important;
+}
+
+.u-bgUserColorLightest {
+    background-color: #E5F2F7 !important;
+}
+
+.u-textUserColorLighter {
+    color: #BFE0EC !important;
+}
+
+.u-borderUserColorLighter {
+    border-color: #BFE0EC !important;
+}
+
+.u-bgUserColorLighter {
+    background-color: #BFE0EC !important;
+}
+
+.u-bgUserColorDarkHover:hover {
+    background-color: #006990 !important;
+}
+
+.u-borderUserColorDark {
+    border-color: #006990 !important;
+}
+
+.u-bgUserColorDarkerActive:active {
+    background-color: #004F6C !important;
+}
+
+a,
+.btn-link,
+.btn-link:focus,
+.icon-btn,
+.pretty-link b,
+.pretty-link:hover s,
+.pretty-link:hover b,
+.pretty-link:focus s,
+.pretty-link:focus b,
+    /* Account Group */
+.metadata a:hover,
+.metadata a:focus,
+.account-group:hover .fullname,
+.account-group:focus .fullname,
+.account-summary:focus .fullname,
+.message .message-text a,
+.stats a strong,
+.plain-btn:hover,
+.plain-btn:focus,
+.dropdown.open .user-dropdown.plain-btn,
+.open > .plain-btn,
+#global-actions .new:before,
+.module .list-link:hover,
+.module .list-link:focus,
+.UserCompletion-step:hover,
+.stats a:hover,
+.stats a:hover strong,
+.stats a:focus,
+.stats a:focus strong,
+.profile-modal-header .fullname a:hover,
+.profile-modal-header .username a:hover,
+.profile-modal-header .fullname a:focus,
+.profile-modal-header .username a:focus,
+.find-friends-sources li:hover .source,
+.stream-item a:hover .fullname,
+.stream-item a:focus .fullname,
+.stream-item .view-all-supplements:hover,
+.stream-item .view-all-supplements:focus,
+.tweet .time a:hover,
+.tweet .time a:focus,
+.tweet .details.with-icn b,
+.tweet .details.with-icn .Icon,
+.tweet .tweet-geo-text a:hover,
+.stream-item:hover .original-tweet .details b,
+.stream-item .original-tweet.focus .details b,
+.stream-item.open .original-tweet .details b,
+.simple-tweet:hover .details b,
+.simple-tweet.focus .details b,
+.simple-tweet.open .details b,
+.simple-tweet:hover .details .simple-details-link,
+.simple-tweet.focus .details .simple-details-link,
+.client-and-actions a:hover,
+.client-and-actions a:focus,
+.dismiss-btn:hover b,
+.tweet .context .pretty-link:hover s,
+.tweet .context .pretty-link:hover b,
+.tweet .context .pretty-link:focus s,
+.tweet .context .pretty-link:focus b,
+.list .username a:hover,
+.list .username a:focus,
+.list-membership-container .create-a-list,
+.list-membership-container .create-a-list:hover,
+.card .list-details a:hover,
+.card .list-details a:focus,
+.card .card-body:hover .attribution,
+.card .card-body .attribution:focus,
+.new-tweets-bar,
+.onebox .soccer ul.ticker a:hover,
+.onebox .soccer ul.ticker a:focus,
+.remove-background-btn,
+.stream-item-activity-notification .latest-tweet .tweet-row a:hover,
+.stream-item-activity-notification .latest-tweet .tweet-row a:focus,
+.stream-item-activity-notification .latest-tweet .tweet-row a:hover b,
+.stream-item-activity-notification .latest-tweet .tweet-row a:focus b {
+    color: #0084B4;
+}
+
+#global-actions > li > a {
+    border-bottom-color: #0084B4;
+}
+
+#global-actions > li:hover > a,
+#global-actions > li > a:focus,
+.nav.right-actions > li > a:hover,
+.nav.right-actions > li > button:hover,
+.nav.right-actions > li > a:focus,
+.nav.right-actions > li > button:focus {
+    color: #0084B4;
+}
+
+/* Surpress the new connect glow if in experiment. */
+#global-actions .people.new:before {
+    content: none;
+}
+
+/* hover state for photo select button*/
+.photo-selector:hover .btn,
+.icon-btn:hover,
+.icon-btn:active,
+.icon-btn.active,
+.icon-btn.enabled {
+    border-color: #0084B4;
+    border-color: rgba(0, 132, 180, .5);
+    color: #0084B4;
+}
+
+/* hover state for photo select button*/
+.photo-selector:hover .btn,
+.icon-btn:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 132, 180, .1));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00FFFFFF', endColorstr='#190084B4'); /* IE8-9 */
+}
+
+.icon-btn.disabled,
+.icon-btn.disabled:hover,
+.icon-btn[disabled],
+.icon-btn[aria-disabled=true] {
+    color: #0084B4;
+}
+
+/* tweet-btn can have primary-btn class as well so the following rules ensure that the correct background color is applied */
+.tweet-btn,
+.tweet-btn:focus {
+    background-color: #0084B4;
+    background: rgba(0, 132, 180, .8);
+}
+
+.tweet-btn:hover,
+.tweet-btn:active,
+.tweet-btn.active {
+    background-color: #0084B4;
+}
+
+.tweet-btn.btn.disabled,
+.tweet-btn.btn.disabled:hover,
+.tweet-btn.btn[disabled],
+.tweet-btn.btn[aria-disabled=true] {
+    background: #0084B4;
+}
+
+.btn:focus,
+.btn.focus,
+.Button:focus {
+    box-shadow: 0 0 0 1px #fff,
+    0 0 0 3px rgba(0, 132, 180, 0.5);
+}
+
+.selected-stream-item:focus {
+    box-shadow: 0 0 0 3px rgba(0, 132, 180, 0.5);
+}
+
+/* highlighting when navigate through timeline stream table view with j & k. */
+.js-navigable-stream.stream-table-view .selected-stream-item[tabindex="-1"]:focus {
+    outline: 3px solid rgba(0, 132, 180, 0.5) !important;
+}
+
+/* box-shadow does not work with table tr element */
+.js-navigable-stream.stream-table-view .selected-stream-item:focus {
+    box-shadow: none;
+}
+
+/**
+ * 1. Bring actionable tweet to top when active to ensure border
+ *    highlighting wraps entire tweet. Value must be at least at if not
+ *    higher than the z-index value of ProfileHeading to ensure first
+ *    tweet in timeline receives border on all four sides.
+ *    NOTE: z-index should be 2 to avoid conflicts with .ProfileCanopy and .ProfileCard-avatarLink
+ */
+
+.js-stream-item.is-selected:focus .ProfileCard,
+.QuoteTweet:hover,
+.QuoteTweet:focus,
+.QuoteTweet:active,
+.activity-user-profile-content:hover,
+.activity-user-profile-content:focus,
+.activity-user-profile-content:active {
+    border-color: rgba(0, 132, 180, 0.5);
+    z-index: 2; /* 1 */
+}
+
+.global-dm-nav.new.with-count .dm-new {
+    background: #fff;
+}
+
+.global-dm-nav.new.with-count .dm-new .count-inner {
+    background: #0084B4;
+}
+
+.global-nav .people .count .count-inner {
+    background: #0084B4;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-menu .dropdown-link:hover,
+.dropdown-menu .dropdown-link:focus,
+.dropdown-menu .dropdown-link.is-focused,
+.dropdown-menu li:hover .dropdown-link,
+.dropdown-menu li:focus .dropdown-link,
+.dropdown-menu .typeahead-recent-search-item.selected,
+.dropdown-menu .typeahead-saved-search-item.selected,
+.dropdown-menu .selected a,
+.dropdown-menu .dropdown-link.selected {
+    background-color: #0084B4 !important;
+}
+
+/* give tweet boxes 10% of the users link color as background */
+.home-tweet-box,
+.RetweetDialog-commentBox,
+.WebToast-box--altColor,
+.content-main .conversations-enabled .expansion-container .inline-reply-tweetbox {
+    background-color: #E5F2F7;
+}
+
+.conversations-enabled .inline-reply-caret .caret-inner {
+    border-bottom-color: #E5F2F7;
+}
+
+.top-timeline-tweetbox .timeline-tweet-box .tweet-form.condensed .tweet-box {
+    color: #0084B4;
+}
+
+/* give tweet box containers an outline using the users link color */
+.home-tweet-box,
+.top-timeline-tweetbox .timeline-tweet-box {
+    border-color: #BFE0EC !important;
+}
+
+/* give tweet boxes an outline using the users link color */
+.tweet-box[contenteditable="true"] {
+    border-color: rgba(0, 132, 180, 0.25);
+}
+
+input:focus,
+textarea:focus,
+div[contenteditable="true"]:focus,
+div[contenteditable="true"].fake-focus {
+    border-color: #66B5D2;
+    box-shadow: inset 0 0 0 1px rgba(0, 132, 180, 0.7);
+}
+
+.currently-dragging.modal-enabled .modal .tweet-form.is-droppable .tweet-box,
+.currently-dragging:not(.modal-enabled) .tweet-form.is-droppable .tweet-content .tweet-box,
+.tweet-box[contenteditable="true"]:focus {
+    border-color: #99CDE1;
+    box-shadow: none;
+}
+
+s,
+.pretty-link:hover s,
+.pretty-link:focus s,
+.stream-item-activity-notification .latest-tweet .tweet-row a:hover s,
+.stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
+    color: #66B5D2;
+}
+
+.vellip,
+.vellip:before,
+.vellip:after,
+.conversation-module > li:after,
+.conversation-module > li:before,
+.ThreadedConversation-tweet ~ .ThreadedConversation-tweet:before,
+.ThreadedConversation-tweet:after,
+.ThreadedConversation-viewOther:before,
+.ThreadedConversation-unavailableTweet:before,
+.ThreadedConversation-unavailableTweet:after {
+    background-color: #66B5D2;
+}
+
+.tweet .sm-reply,
+.tweet .sm-rt,
+.tweet .sm-fav,
+.tweet .sm-image,
+.tweet .sm-video,
+.tweet .sm-audio,
+.tweet .sm-geo,
+.tweet .sm-in,
+.tweet .sm-trash,
+.tweet .sm-more,
+.tweet .sm-page,
+.tweet .sm-embed,
+.tweet .sm-summary,
+.tweet .sm-chat,
+.timelines-navigation .active .profile-nav-icon,
+.timelines-navigation .profile-nav-icon:hover,
+.timelines-navigation .profile-nav-link:focus .profile-nav-icon,
+.sm-top-tweet,
+.metadata a.tweet-geo-text:hover .sm-geo {
+    background-color: #0084B4;
+}
+
+.enhanced-mini-profile .mini-profile .profile-summary {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/mobile);
+}
+
+.wrapper-profile .profile-card.profile-header .profile-header-inner {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/web);
+}
+
+#global-tweet-dialog .modal-header {
+    border-bottom: solid 1px rgba(0, 132, 180, .25);
+}
+
+#global-tweet-dialog .modal-tweet-form-container {
+    background-color: #0084B4;
+    background: rgba(0, 132, 180, .1);
+}
+
+.inline-reply-tweetbox {
+    background-color: #E5F2F7;
+}
+
+</style>
+<style id="user-style-S_V_J_P-header-img" class="js-user-style-header-img">
+
+body.user-style-S_V_J_P .enhanced-mini-profile .mini-profile .profile-summary {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/web);
+}
+
+body.user-style-S_V_J_P .wrapper-profile .profile-card.profile-header .profile-header-inner {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/web);
+}
+
+.DashboardProfileCard-bg {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/600x200);
+}
+
+body.user-style-S_V_J_P .profile-canopy .bg-img {
+    background-image: url(https://pbs.twimg.com/profile_banners/1861476799/1399804252/web_retina);
+}
+
+</style>
+<style type="text/css" id="hidden-dms"></style></head>
+</head>
+<body class="three-col bigger-emoji logged-in user-style-S_V_J_P ms-windows enhanced-mini-profile ProfilePage ProfilePage--withBlockedWarning supports-drag-and-drop" data-fouc-class-names="swift-loading" dir="ltr"><div id="kb-shortcuts-msg" class="visuallyhidden">
+    <h2>Keyboard Shortcuts</h2>
+    <p>
+        Keyboard shortcuts are available for common actions and site navigation.
+        <button id="show-shortcuts-btn" type="button" tabindex="-1">View Keyboard Shortcuts</button>
+        <button id="dismiss-shortcuts-btn" type="button" tabindex="-1">Dismiss this message</button>
+    </p>
+</div>
+<script id="swift_loading_indicator" nonce="JhHFcot1j/Kjp0Sav4QigQ==">
+    document.body.className=document.body.className+" "+document.body.getAttribute("data-fouc-class-names");
+</script>
+<div id="doc" class="route-profile">
+    <div class="topbar js-topbar">
+
+
+        <div class="ProfilePage-editingOverlay"></div>
+
+
+        <div class="global-nav" data-section-term="top_nav">
+            <div class="global-nav-inner">
+                <div class="container">
+
+                    <h1 class="Icon Icon--bird bird-topbar-etched" style="display: inline-block; width: 24px; height: 21px;">
+                        <span class="visuallyhidden">Twitter</span>
+                    </h1><div class="pushstate-spinner"></div>
+
+
+                    <div role="navigation" style="display: inline-block;"><ul class="nav js-global-actions" id="global-actions"><li id="global-nav-home" class="home" data-global-action="home">
+                        <g:link controller="home" class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" data-component-context="home_nav" data-nav="home">
+                            <span class="Icon Icon--home Icon--large"></span>
+                            <span class="text">Home</span>
+                        </g:link>
+                    </li><li class="people notifications" data-global-action="connect">
+                        <a class="js-nav js-tooltip js-dynamic-tooltip" data-placement="bottom" href="https://twitter.com/i/notifications" data-component-context="connect_nav" data-nav="connect">
+                            <span class="Icon Icon--notifications Icon--large"></span>
+                            <span class="text">Notifications</span>
+                            <span class="count">
+                                <span class="count-inner">0</span>
+                            </span>
+                        </a>
+                    </li><li class="dm-nav">
+                        <a role="button" href="https://twitter.com/S_V_J_P#" class="js-tooltip js-dynamic-tooltip global-dm-nav" data-placement="bottom">
+                            <span class="Icon Icon--dm Icon--large"></span>
+                            <span class="text">Messages</span>
+                            <span class="dm-new"><span class="count-inner"></span></span>
+                        </a>
+                    </li></ul>
+                    </div>
+
+
+                    <div class="pull-right" style="display: inline-block;"><div role="search">
+                        <form class="t1-form form-search js-search-form" action="https://twitter.com/search" id="global-nav-search">
+                            <label class="visuallyhidden" for="search-query">Search query</label>
+                            <input class="search-input" type="text" id="search-query" placeholder="Search Twitter" name="q" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-dropdown-1">
+                            <span class="search-icon js-search-action">
+                                <button type="submit" class="Icon Icon--search nav-search" tabindex="-1">
+                                    <span class="visuallyhidden">Search Twitter</span>
+                                </button>
+                            </span>
+                            <div role="listbox" class="dropdown-menu typeahead" id="typeahead-dropdown-1">
+                                <div aria-hidden="true" class="dropdown-caret">
+                                    <div class="caret-outer"></div>
+                                    <div class="caret-inner"></div>
+                                </div>
+                                <div role="presentation" class="dropdown-inner js-typeahead-results"><div role="presentation" class="typeahead-recent-searches block0">
+                                    <h3 id="recent-searches-heading" class="typeahead-category-title recent-searches-title">Recent searches</h3><button type="button" tabindex="-1" class="btn-link clear-recent-searches">Clear All</button>
+                                    <ul role="presentation" class="typeahead-items recent-searches-list">
+
+                                        <li role="presentation" class="typeahead-item typeahead-recent-search-item">
+                                            <span class="Icon Icon--close" aria-hidden="true"><span class="visuallyhidden">Remove</span></span>
+                                            <a role="option" aria-describedby="recent-searches-heading" class="js-nav" href="" data-search-query="" data-query-source="" data-ds="recent_search" tabindex="-1"></a>
+                                        </li>
+                                    </ul>
+                                </div><div role="presentation" class="typeahead-saved-searches block1">
+                                    <h3 id="saved-searches-heading" class="typeahead-category-title saved-searches-title">Saved searches</h3>
+                                    <ul role="presentation" class="typeahead-items saved-searches-list">
+
+                                        <li role="presentation" class="typeahead-item typeahead-saved-search-item">
+                                            <span class="Icon Icon--close" aria-hidden="true"><span class="visuallyhidden">Remove</span></span>
+                                            <a role="option" aria-describedby="saved-searches-heading" class="js-nav" href="" data-search-query="" data-query-source="" data-ds="saved_search" tabindex="-1"></a>
+                                        </li>
+                                    </ul>
+                                </div><ul role="presentation" class="typeahead-items typeahead-topics block2" style="display: none;">
+
+                                    <li role="presentation" class="typeahead-item typeahead-topic-item">
+                                        <a role="option" class="js-nav" href="" data-search-query="" data-query-source="typeahead_click" data-ds="topics" tabindex="-1">
+                                        </a>
+                                    </li>
+                                </ul><ul role="presentation" class="typeahead-items typeahead-accounts social-context js-typeahead-accounts block3" style="display: none;">
+
+                                    <li role="presentation" data-user-id="" data-user-screenname="" data-remote="true" data-score="" class="typeahead-item typeahead-account-item js-selectable">
+
+                                        <a role="option" class="js-nav" data-query-source="typeahead_click" data-search-query="" data-ds="account">
+                                            <img class="avatar size32" alt="">
+                                            <span class="typeahead-user-item-info">
+                                                <span class="fullname"></span>
+                                                <span class="js-verified hidden"><span class="Icon Icon--verified Icon--small">
+                                                    <span class="u-hiddenVisually">Verified account</span>
+                                                </span></span>
+                                                <span class="username"><s>@</s><b></b></span>
+                                            </span>
+                                            <span class="typeahead-social-context"></span>
+                                        </a>
+                                    </li>
+                                    <li role="presentation" class="js-selectable typeahead-accounts-shortcut js-shortcut"><a role="option" class="js-nav" href="" data-search-query="" data-query-source="typeahead_click" data-shortcut="true" data-ds="account_search"></a></li>
+                                </ul></div>
+                            </div>
+
+                        </form>
+                    </div>
+                        <ul class="nav right-actions"><li class="me dropdown session js-session" data-global-action="t1me" id="user-dropdown">
+                            <a href="https://twitter.com/settings/account" class="btn js-tooltip settings dropdown-toggle js-dropdown-toggle" id="user-dropdown-toggle" title="Profile and settings" data-placement="bottom" role="button" aria-haspopup="true"><img class="avatar size32" src="${resource(dir: "images", file: "default_avatar.png")}" alt="Profile and settings" data-user-id="1861476799"></a>
+<div class="dropdown-menu">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+    <ul>
+
+        <li class="current-user" data-name="profile">
+
+            <a href="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/Vuqar Suleymanov (@S_V_J_P) _ Twitter.html"
+               class="account-summary account-summary-small js-nav" data-nav="view_profile"><div class="content"><div
+                    class="account-group js-mini-current-user" data-user-id="1861476799" data-screen-name="S_V_J_P"><b
+                        class="fullname">${user?.fullname}</b><span class="screen-name hidden"
+                                                                   dir="ltr">${user?.username}</span><small
+                        class="metadata">View profile</small></div></div></a>
+
+        </li>
+
+        <li class="dropdown-divider"></li>
+
+        <li data-name="lists"><a href="https://twitter.com/S_V_J_P/lists" data-nav="all_lists">Lists</a></li>
+        <li class="dropdown-divider"></li>
+
+
+
+
+        <li><a href="https://support.twitter.com/" data-nav="help_center">Help</a></li>
+
+
+        <li class="js-keyboard-shortcut-trigger" data-nav="shortcuts">
+            <button type="button" class="dropdown-link">Keyboard shortcuts</button>
+        </li>
+
+
+
+
+
+
+
+
+
+
+        <li class="dropdown-divider"></li>
+
+
+        <li><a href="https://twitter.com/settings/account" data-nav="settings" class="js-nav">Settings</a></li>
+
+
+        <li class="js-signout-button" id="signout-button" data-nav="logout">
+            <button type="button" class="dropdown-link">Log out</button>
+
+            <form class="t1-form dropdown-link-form signout-form" id="signout-form" action="https://twitter.com/logout"
+                  method="POST">
+                <input type="hidden" value="874539c33e0a31ce8e76b89c8864aba3f6228baa" name="authenticity_token"
+                       class="authenticity_token">
+                <input type="hidden" name="reliability_event" class="js-reliability-event">
+                <input type="hidden" name="scribe_log">
+            </form>
+        </li>
+
+    </ul>
+</div>
+
+</li><li role="complementary" aria-labelledby="global-new-tweet-button" class="topbar-tweet-btn">
+    <button id="global-new-tweet-button" type="button"
+            class="js-global-new-tweet js-tooltip btn primary-btn tweet-btn js-dynamic-tooltip" data-placement="bottom"
+            data-component-context="new_tweet_button">
+        <span class="Icon Icon--tweet Icon--large"></span>
+        <span class="text">Tweet</span>
+    </button>
+</li></ul></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="page-outer">
+    <div id="page-container" class="AppContent">
+
+        <div class="ProfilePage-editingOverlay"></div>
+
+
+        <div class="ProfilePage-testForEditingCss"></div>
+
+        <div class="ProfileCanopy ProfileCanopy--withNav ProfileCanopy--large">
+            <div class="ProfileCanopy-inner">
+
+                <div class="ProfileCanopy-header u-bgUserColor" style="margin-top: 0px;">
+                    <div class="ProfileCanopy-headerBg">
+                        <img alt="" src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/1500x500"
+                             style="transform: none;">
+                    </div>
+
+
+                    <div class="AppContainer">
+
+                        <div class="ProfileCanopy-avatar">
+                            <div class="ProfileAvatar">
+                                <a class="ProfileAvatar-placeholder u-block js-nav js-tooltip profile-picture"
+                                   href="https://twitter.com/S_V_J_P?edit=true" title="Add an avatar"
+                                   data-placement="right" data-scribe-element="profile_avatar">
+                                    <img class="ProfileAvatar-placeholderImage u-bgUserColor"
+                                         data-avatar-placeholder="true"
+                                         src="${resource(dir: "images", file: "default_avatar.png")}"
+                                         alt="Vuqar Suleymanov">
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="ProfileCanopy-headerPromptAnchor"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="ProfileCanopy-navBar">
+                    <div class="ProfilePage-editingOverlay"></div>
+
+                    <div class="AppContainer">
+                        <div class="Grid Grid--withGutter">
+                            <div class="Grid-cell u-size1of3 u-lg-size1of4">
+                                <div class="ProfileCanopy-card" role="presentation" aria-hidden="true">
+                                    <div class="ProfileCardMini">
+                                        <a class="ProfileCardMini-avatar profile-picture media-thumbnail js-tooltip"
+                                           href="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_200x200.png"
+                                           title="Vuqar Suleymanov"
+                                           data-resolved-url-large="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_200x200.png"
+                                           data-url="https://abs.twimg.com/sticky/default_profile_images/default_profile_0_200x200.png"
+                                           target="_blank" tabindex="-1">
+                                            <img class="ProfileCardMini-avatarImage" alt="Vuqar Suleymanov"
+                                                 src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/default_profile_0_normal.png">
+                                        </a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="Grid-cell u-size2of3 u-lg-size3of4">
+                                <div class="ProfileCanopy-nav">
+
+                                    <div class="ProfileNav" role="navigation" data-user-id="1861476799">
+                                        <ul class="ProfileNav-list">
+                                            <li class="ProfileNav-item ProfileNav-item--tweets is-active">
+                                                <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav"
+                                                   title="2 Tweets" data-nav="tweets" tabindex="0">
+                                                    <span class="ProfileNav-label">Tweets</span>
+                                                    <span class="ProfileNav-value" data-is-compact="false">2</span>
+                                                </a>
+                                            </li><li class="ProfileNav-item ProfileNav-item--following">
+                                            <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav u-textUserColor"
+                                               title="26 Following" data-nav="following"
+                                               href="https://twitter.com/following">
+                                                <span class="ProfileNav-label">Following</span>
+                                                <span class="ProfileNav-value" data-is-compact="false">26</span>
+                                            </a>
+                                        </li><li class="ProfileNav-item ProfileNav-item--followers">
+                                            <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav u-textUserColor"
+                                               title="3 Followers" data-nav="followers"
+                                               href="https://twitter.com/followers">
+                                                <span class="ProfileNav-label">Followers</span>
+                                                <span class="ProfileNav-value" data-is-compact="false">3</span>
+                                            </a>
+                                        </li><li class="ProfileNav-item ProfileNav-item--favorites"
+                                                 data-more-item=".ProfileNav-dropdownItem--favorites">
+                                            <a class="ProfileNav-stat ProfileNav-stat--link u-borderUserColor u-textCenter js-tooltip js-nav u-textUserColor"
+                                               title="10 Favorites" data-nav="favorites"
+                                               href="https://twitter.com/favorites">
+
+                                                <span class="ProfileNav-label">Favorites</span>
+                                                <span class="ProfileNav-value" data-is-compact="false">10</span>
+                                            </a>
+                                        </li><li class="ProfileNav-item ProfileNav-item--more dropdown is-hidden"><a
+                                                class="ProfileNav-stat ProfileNav-stat--link ProfileNav-stat--moreLink js-dropdown-toggle"
+                                                href="https://twitter.com/S_V_J_P#more" role="button"
+                                                aria-haspopup="true">
+                                            <span class="ProfileNav-label">&nbsp;</span>
+                                            <span class="ProfileNav-value">More <span
+                                                    class="ProfileNav-dropdownCaret Icon Icon--caretDown"></span></span>
+                                        </a>
+
+                                            <div class="dropdown-menu">
+                                                <div class="dropdown-caret">
+                                                    <span class="caret-outer"></span>
+                                                    <span class="caret-inner"></span>
+                                                </div>
+                                                <ul><li>
+                                                    <a href="https://twitter.com/favorites"
+                                                       class="ProfileNav-dropdownItem ProfileNav-dropdownItem--favorites is-hidden u-bgUserColorHover u-bgUserColorFocus u-linkClean js-nav">Favorites</a>
+                                                </li></ul>
+                                            </div>
+                                        </li><li
+                                                class="ProfileNav-item ProfileNav-item--userActions u-floatRight u-textRight with-rightCaret ">
+                                            <div class="UserActions   u-textLeft">
+                                                <button type="button" class="UserActions-editButton edit-button btn"
+                                                        data-scribe-element="profile_edit_button">
+                                                    <span class="button-text">Edit profile</span>
+                                                </button>
+
+                                                <div class="ProfilePage-editingButtons">
+                                                    <button class="ProfilePage-saveButton btn primary-btn"
+                                                            tabindex="3">Save changes</button>
+                                                    <span class="ProfilePage-savingIndicator"><span
+                                                            class="spinner-small"></span>Saving...</span>
+                                                    <button class="ProfilePage-cancelButton btn"
+                                                            data-scribe-element="cancel_button"
+                                                            tabindex="3">Cancel</button>
+                                                </div>
+
+                                            </div>
+
+                                        </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="AppContainer">
+            <div class="AppContent-main content-main u-cf" role="main" aria-labelledby="content-main-heading">
+                <div class="Grid Grid--withGutter">
+                    <div class="Grid-cell u-size1of3 u-lg-size1of4">
+                        <div class="Grid Grid--withGutter">
+                            <div class="Grid-cell">
+                                <div class="ProfileSidebar ProfileSidebar--withLeftAlignment">
+                                    <div class="ProfileHeaderCard">
+                                        <h1 class="ProfileHeaderCard-name">
+                                            <a href="/profile/index" class="ProfileHeaderCard-nameLink u-textInheritColor js-nav
+">${user?.fullname}</a>
+                                        </h1>
+
+                                        <h2 class="ProfileHeaderCard-screenname u-inlineBlock u-dir" dir="ltr">
+                                            <a class="ProfileHeaderCard-screennameLink u-linkComplex js-nav"
+                                               href="/profile/index"><span class="u-linkComplex-target">${user?.username}</span>
+                                            </a>
+                                        </h2>
+
+                                        <p class="ProfileHeaderCard-bio u-dir" dir="ltr"></p>
+
+                                        <div class="ProfileHeaderCard-joinDate">
+                                            <span class="Icon Icon--clock Icon--small"></span>
+                                            <span class="ProfileHeaderCard-joinDateText js-tooltip u-dir" dir="ltr"
+                                                  title="12:03 PM - 13 Sep 2013">Joined <g:formatDate date="${user?.dateCreated}" type="date" style="LONG" /> </span>
+                                        </div>
+
+                                        <div class="ProfileHeaderCard-birthdate u-hidden">
+                                            <span class="Icon Icon--balloon Icon--medium"></span>
+                                            <span class="ProfileHeaderCard-birthdateText u-dir" dir="ltr">
+                                            </span>
+                                        </div>
+
+                                        <div class="ProfileMessagingActions">
+                                            <div class="ProfileMessagingActions-actionsContainer">
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="ProfileHeaderCardEditing u-bgUserColorLightest ProfileHeaderCardEditing--withExtraFields">
+                                        <div class="ProfileHeaderCardEditing-name ProfileHeaderCardEditing-item">
+                                            <input type="text" id="user_name" name="user[name]"
+                                                   class="ProfileHeaderCardEditing-editableField u-borderUserColorLight"
+                                                   value="Vuqar Suleymanov" placeholder="Name" maxlength="20"
+                                                   autocomplete="off" tabindex="2">
+                                        </div>
+
+                                        <div class="ProfileHeaderCardEditing-screenname u-textUserColor">@S_V_J_P</div>
+
+                                        <div class="ProfileHeaderCardEditing-bioRich ProfileHeaderCardEditing-item">
+                                            <div name="user[description]"
+                                                 class="ProfileHeaderCardEditing-editableField rich-editor u-borderUserColorLight notie is-showPlaceholder"
+                                                 contenteditable="true" spellcheck="true" aria-multiline="true"
+                                                 data-placeholder="Bio" role="textbox" tabindex="2"></div>
+                                        </div>
+
+                                        <div class="ProfileHeaderCardEditing-location ProfileHeaderCardEditing-item">
+                                            <label class="visuallyhidden" for="user_location">Profile location</label>
+                                            <input type="text" id="user_location" name="user[location]"
+                                                   class="ProfileHeaderCardEditing-editableField u-borderUserColorLight GeoSearch-queryInput js-geo-search-trigger"
+                                                   value="Baku" placeholder="Location" maxlength="30" autocomplete="off"
+                                                   tabindex="2" aria-owns="profile-geo-dropdown" aria-expanded="false"
+                                                   aria-autocomplete="list">
+
+                                            <div id="profile-geo-dropdown" class="GeoSearch-dropdownMenu dropdown-menu"
+                                                 role="listbox">
+                                                <div class="dropdown-caret" aria-hidden="true">
+                                                    <span class="caret-outer"></span>
+                                                    <span class="caret-inner"></span>
+                                                </div>
+                                                <ul role="presentation">
+                                                    <li class="GeoSearch-searchStatus" role="presentation"></li>
+                                                </ul>
+                                                <ul class="GeoSearch-resultsContainer" role="presentation">
+                                                </ul>
+                                            </div>
+                                            <input class="ProfileHeaderCardEditing-locationPlaceId GeoSearch-placeId"
+                                                   type="hidden" name="user[location_place_id]" value="">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="Grid-cell u-size2of3 u-lg-size3of4">
+                        <div class="Grid Grid--withGutter">
+                            <div class="Grid-cell">
+                                <div class="js-profileClusterFollow"></div>
+                            </div>
+
+                            <div class="Grid-cell
+                    u-lg-size2of3
+              " data-test-selector="ProfileTimeline">
+
+                                <div class="ProfileHeading">
+                                    <div class="ProfileHeading-spacer"></div>
+
+                                    <div class="ProfileHeading-content
+      ">
+                                        <h2 id="content-main-heading"
+                                            class="ProfileHeading-title u-hiddenVisually">Tweets</h2>
+                                        <ul class="ProfileHeading-toggle">
+                                            <li class="ProfileHeading-toggleItem
+              
+              is-active
+              " data-element-term="tweets_toggle">
+                                                Tweets
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div id="timeline">
+                                    <div class="stream-container  js-request-more-stream-items"
+                                         data-max-position="392687380932866048">
+
+                                        <div class="stream-item js-new-items-bar-container">
+                                        </div>
+
+                                        <div class="stream profile-stream">
+                                            <ol class="stream-items js-navigable-stream" id="stream-items-id">
+                                                <li class="js-stream-item stream-item stream-item expanding-stream-item  before-expanded"
+                                                    data-item-id="378615950020710400"
+                                                    id="stream-item-tweet-378615950020710400" data-item-type="tweet">
+
+                                                    <div class="tweet original-tweet js-original-tweet js-stream-tweet js-actionable-tweet js-profile-popup-actionable my-tweet "
+                                                         data-tweet-id="378615950020710400" data-disclosure-type=""
+                                                         data-item-id="378615950020710400"
+                                                         data-permalink-path="/S_V_J_P/status/378615950020710400"
+                                                         data-screen-name="S_V_J_P" data-name="Vuqar Suleymanov"
+                                                         data-user-id="1861476799"
+                                                         data-expanded-footer="&lt;div class=&quot;js-tweet-details-fixer tweet-details-fixer&quot;&gt;
+
+
+
+                                                         &lt;div class=&quot;entities-media-container js-media-container&quot; style=&quot;min-height:0px&quot;&gt;
+                                                         &lt;/div&gt;
+
+                                                         &lt;div class=&quot;js-machine-translated-tweet-container&quot;&gt;&lt;/div&gt;
+                                                         &lt;div class=&quot;js-tweet-stats-container tweet-stats-container &quot;&gt;
+                                                         &lt;/div&gt;
+
+                                                         &lt;div class=&quot;client-and-actions&quot;&gt;
+                                                         &lt;span class=&quot;metadata&quot;&gt;
+                                                         &lt;span&gt;1:27 PM - 13 Sep 2013&lt;/span&gt;
+
+                                                         &amp;middot; &lt;a class=&quot;permalink-link js-permalink js-nav&quot; href=&quot;/S_V_J_P/status/378615950020710400&quot;  tabindex=&quot;-1&quot;&gt;Details&lt;/a&gt;
+
+
+
+                                                         &lt;/span&gt;
+                                                         &lt;/div&gt;
+
+
+                                                         &lt;/div&gt;
+                                                         " data-you-follow="false" data-follows-you="false"
+                                                         data-you-block="false">
+
+                                                        <div class="content">
+
+                                                            <div class="stream-item-header">
+                                                                <a class="account-group js-account-group js-action-profile js-user-profile-link js-nav"
+                                                                   href="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/Vuqar Suleymanov (@S_V_J_P) _ Twitter.html"
+                                                                   data-user-id="1861476799">
+                                                                    <img class="avatar js-action-profile-avatar"
+                                                                         src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/default_profile_0_bigger.png"
+                                                                         alt="">
+                                                                    <strong class="fullname js-action-profile-name show-popup-with-id"
+                                                                            data-aria-label-part="">Vuqar Suleymanov</strong>
+                                                                    <span>‏</span><span
+                                                                        class="username js-action-profile-name"
+                                                                        data-aria-label-part=""><s>@</s><b>S_V_J_P</b>
+                                                                </span>
+
+                                                                </a>
+
+                                                                <small class="time">
+                                                                    <a href="https://twitter.com/S_V_J_P/status/378615950020710400"
+                                                                       class="tweet-timestamp js-permalink js-nav js-tooltip"
+                                                                       title="1:27 PM - 13 Sep 2013"><span
+                                                                            class="_timestamp js-short-timestamp "
+                                                                            data-aria-label-part="last"
+                                                                            data-time="1379104051"
+                                                                            data-time-ms="1379104051000"
+                                                                            data-long-form="true">13 Sep 2013</span></a>
+                                                                </small>
+
+                                                            </div>
+
+
+                                                            <p class="TweetTextSize TweetTextSize--16px js-tweet-text tweet-text"
+                                                               lang="en"
+                                                               data-aria-label-part="0">i try improve myself and be developer, and i will be developer! Inshallah :)</p>
+
+
+                                                            <div class="expanded-content js-tweet-details-dropdown">
+
+                                                            </div>
+
+
+                                                            <div class="stream-item-footer">
+
+                                                                <div class="ProfileTweet-actionCountList u-hiddenVisually">
+
+                                                                    <span class="ProfileTweet-action--reply u-hiddenVisually"></span>
+                                                                    <span class="ProfileTweet-action--retweet u-hiddenVisually">
+
+                                                                        <span class="ProfileTweet-actionCount"
+                                                                              aria-hidden="true"
+                                                                              data-tweet-stat-count="0">
+                                                                            <span class="ProfileTweet-actionCountForAria">0 retweets</span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="ProfileTweet-action--favorite u-hiddenVisually">
+                                                                        <span class="ProfileTweet-actionCount"
+                                                                              aria-hidden="true"
+                                                                              data-tweet-stat-count="0">
+                                                                            <span class="ProfileTweet-actionCountForAria">0 favorites</span>
+                                                                        </span>
+                                                                    </span>
+                                                                </div>
+
+                                                                <div class="ProfileTweet-actionList js-actions "
+                                                                     role="group" aria-label="Tweet actions">
+
+                                                                    <div class="ProfileTweet-action ProfileTweet-action--reply">
+                                                                        <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionReply"
+                                                                                data-modal="ProfileTweet-reply"
+                                                                                type="button">
+                                                                            <div class="IconContainer js-tooltip"
+                                                                                 title="Reply">
+                                                                                <span class="Icon Icon--reply"></span>
+                                                                                <span class="u-hiddenVisually">Reply</span>
+                                                                            </div>
+                                                                        </button>
+                                                                    </div>
+
+
+                                                                    <div class="ProfileTweet-action ProfileTweet-action--retweet js-toggleState js-toggleRt">
+                                                                        <button class="ProfileTweet-actionButton  is-disabled js-disableTweetAction js-actionButton js-actionRetweet"
+                                                                                disabled=""
+                                                                                data-modal="ProfileTweet-retweet"
+                                                                                type="button">
+                                                                            <div class="IconContainer js-tooltip">
+                                                                                <span class="Icon Icon--retweet"></span>
+                                                                                <span class="u-hiddenVisually">Retweet</span>
+                                                                            </div>
+
+                                                                            <div class="IconTextContainer">
+                                                                                <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+                                                                                    <span class="ProfileTweet-actionCountForPresentation"
+                                                                                          aria-hidden="true"></span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </button><button
+                                                                            class="ProfileTweet-actionButtonUndo js-actionButton js-actionRetweet"
+                                                                            data-modal="ProfileTweet-retweet"
+                                                                            type="button">
+                                                                        <div class="IconContainer js-tooltip"
+                                                                             title="Undo retweet">
+                                                                            <span class="Icon Icon--retweet"></span>
+                                                                            <span class="u-hiddenVisually">Retweeted</span>
+                                                                        </div>
+
+                                                                        <div class="IconTextContainer">
+                                                                            <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+                                                                                <span class="ProfileTweet-actionCountForPresentation"
+                                                                                      aria-hidden="true"></span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </button>
+                                                                    </div>
+
+
+                                                                    <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState ">
+                                                                        <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite"
+                                                                                type="button">
+                                                                            <div class="IconContainer js-tooltip"
+                                                                                 title="Favorite">
+                                                                                <span class="Icon  Icon--favorite"></span>
+                                                                                <span class="u-hiddenVisually">Favorite</span>
+                                                                            </div>
+
+                                                                            <div class="IconTextContainer">
+                                                                                <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+                                                                                    <span class="ProfileTweet-actionCountForPresentation"
+                                                                                          aria-hidden="true"></span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </button><button
+                                                                            class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite"
+                                                                            type="button">
+                                                                        <div class="IconContainer js-tooltip"
+                                                                             title="Undo favorite">
+                                                                            <span class="Icon  Icon--favorite"></span>
+                                                                            <span class="u-hiddenVisually">Favorited</span>
+                                                                        </div>
+
+                                                                        <div class="IconTextContainer">
+                                                                            <span class="ProfileTweet-actionCount ProfileTweet-actionCount--isZero">
+                                                                                <span class="ProfileTweet-actionCountForPresentation"
+                                                                                      aria-hidden="true"></span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </button>
+                                                                    </div>
+
+
+                                                                    <div class="ProfileTweet-action ProfileTweet-action--more js-more-ProfileTweet-actions">
+                                                                        <div class="dropdown">
+                                                                            <button class="ProfileTweet-actionButton u-textUserColorHover dropdown-toggle js-dropdown-toggle"
+                                                                                    type="button" aria-haspopup="true">
+                                                                                <div class="IconContainer js-tooltip"
+                                                                                     title="More">
+                                                                                    <span class="Icon Icon--dots"></span>
+                                                                                    <span class="u-hiddenVisually">More</span>
+                                                                                </div>
+                                                                            </button>
+
+                                                                            <div class="dropdown-menu">
+                                                                                <div class="dropdown-caret">
+                                                                                    <div class="caret-outer"></div>
+
+                                                                                    <div class="caret-inner"></div>
+                                                                                </div>
+                                                                                <ul>
+                                                                                    <li class="share-via-dm js-actionShareViaDM"
+                                                                                        data-nav="share_tweet_dm">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Share via Direct Message</button>
+                                                                                    </li>
+
+                                                                                    <li class="copy-link-to-tweet js-actionCopyLinkToTweet">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Copy link to Tweet</button>
+                                                                                    </li>
+                                                                                    <li class="embed-link js-actionEmbedTweet"
+                                                                                        data-nav="embed_tweet">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Embed Tweet</button>
+                                                                                    </li>
+                                                                                    <li class="user-pin-tweet js-actionPinTweet"
+                                                                                        data-nav="user_pin_tweet">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Pin to your profile page</button>
+                                                                                    </li>
+                                                                                    <li class="user-unpin-tweet js-actionPinTweet"
+                                                                                        data-nav="user_unpin_tweet">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Unpin from profile page</button>
+                                                                                    </li>
+                                                                                    <li class="js-actionDelete">
+                                                                                        <button type="button"
+                                                                                                class="dropdown-link">Delete Tweet</button>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                </li>
+                                            </ol>
+
+                                            <ol class="hidden-replies-container"></ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="Grid-cell u-size1of3">
+                                <div class="Grid Grid--withGutter">
+                                    <div class="Grid-cell">
+                                        <div class="ProfileSidebar ProfileSidebar--withRightAlignment">
+
+                                            <div class="MoveableModule">
+
+                                                <div class="SidebarCommonModules">
+
+                                                    <div class="WhoToFollow  is-visible">
+                                                        <div class="WhoToFollow-header">
+                                                            <h3 class="WhoToFollow-title">Who to follow</h3>
+                                                            ·
+                                                            <button class="btn-link js-refresh-suggestions"
+                                                                    type="button">Refresh</button>
+                                                            ·
+                                                            <a class="js-view-all-link"
+                                                               href="https://twitter.com/who_to_follow/suggestions"
+                                                               data-element-term="view_all_link">
+                                                                View all
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="WhoToFollow-users js-recommended-followers"
+                                                             data-section-id="wtf" style="opacity: 1;"><div
+                                                                class="js-account-summary account-summary js-actionable-user "
+                                                                data-user-id="402676244" data-feedback-token="109"
+                                                                data-impression-id="">
+                                                            <div class="dismiss js-action-dismiss"><span
+                                                                    class="Icon Icon--close"></span></div>
+
+                                                            <div class="content">
+                                                                <a class="account-group js-recommend-link js-user-profile-link user-thumb"
+                                                                   href="https://twitter.com/CocoaPods"
+                                                                   data-user-id="402676244">
+
+                                                                    <img class="avatar js-action-profile-avatar "
+                                                                         src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/e1cbdef9d4b11484049a033886578e54_normal.png"
+                                                                         alt="">
+                                                                    <span class="account-group-inner js-action-profile-name"
+                                                                          data-user-id="402676244">
+                                                                        <b class="fullname">CocoaPods</b>
+                                                                        <span class="username"><s>@</s><span
+                                                                                class="js-username">CocoaPods</span>
+                                                                        </span>
+                                                                    </span>
+                                                                </a>
+
+
+                                                                <small class="metadata social-context">
+                                                                </small>
+
+                                                                <div class="user-actions not-following not-muting"
+                                                                     data-user-id="402676244">
+                                                                    <button type="button"
+                                                                            class="small-follow-btn follow-btn btn small follow-button js-recommended-item">
+                                                                        <div class="js-action-follow follow-text action-text">
+                                                                            <span class="Icon Icon--follow"></span>
+                                                                            Follow
+                                                                        </div>
+
+                                                                        <div class="js-action-unfollow following-text action-text">Following</div>
+
+                                                                        <div class="js-action-unfollow unfollow-text action-text">Unfollow</div>
+
+                                                                        <div class="block-text action-text">Blocked</div>
+
+                                                                        <div class="js-action-unblock unblock-text action-text">Unblock</div>
+
+                                                                        <div class="js-action-unfollow pending-text action-text">Pending</div>
+
+                                                                        <div class="js-action-unfollow cancel-req-text action-text">Cancel</div>
+                                                                    </button>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="./Vuqar Suleymanov (@S_V_J_P) _ Twitter_files/init.3743f4b4667a2659c33c78dd34ae622df5363d99.js"
+        async=""></script>
+
+</html>

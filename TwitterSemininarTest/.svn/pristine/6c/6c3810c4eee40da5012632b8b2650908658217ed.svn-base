@@ -1,0 +1,14 @@
+package az.ivytech
+
+import grails.plugins.springsecurity.Secured
+
+class ProfileController {
+
+    def springSecurityService
+
+    @Secured(['IS_AUTHENTICATED_FULLY', 'IS_AUTHENTICATED_REMEMBERED'])
+    def index() {
+        User user = springSecurityService.currentUser
+        [user: user]
+    }
+}

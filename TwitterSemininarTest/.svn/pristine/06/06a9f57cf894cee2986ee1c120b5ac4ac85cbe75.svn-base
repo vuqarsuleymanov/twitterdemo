@@ -1,0 +1,23 @@
+package az.ivytech
+
+class Tweets {
+
+    User user
+    String tweet
+    String status
+    Date dateCreated
+
+    Tweets shared
+
+    static constraints = {
+        shared nullable: true, blank: true
+        tweet nullable: true, blank: true
+        user nullable: true, blank: true
+    }
+
+    static hasMany = [favorite: Favorite, comments: Comments]
+
+    static mapping = {
+        tweet type: "text"
+    }
+}
